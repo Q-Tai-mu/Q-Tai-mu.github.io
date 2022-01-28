@@ -1,443 +1,362 @@
-﻿<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-  <title>Mario-Blog</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="" />
-  <meta name="keywords" content="" />
-  <meta name="author" content="themenum.com" />
+  <title>WebApp &mdash; Website Template by Colorlib</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">    
 
-  <!-- Styles -->
-  <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
-  <link rel="stylesheet" type="text/css" href="css/style.css" />
-  <link rel="stylesheet" href="css/icons.css" />
-  <link rel="stylesheet" type="text/css" href="css/responsive.css" />
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
+  <link rel="stylesheet" href="fonts/icomoon/style.css">
+
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/jquery-ui.css">
+  <link rel="stylesheet" href="css/owl.carousel.min.css">
+  <link rel="stylesheet" href="css/owl.theme.default.min.css">
+  <link rel="stylesheet" href="css/owl.theme.default.min.css">
+
+  <link rel="stylesheet" href="css/jquery.fancybox.min.css">
+
+  <link rel="stylesheet" href="css/bootstrap-datepicker.css">
+
+  <link rel="stylesheet" href="fonts/flaticon/font/flaticon.css">
+
+  <link rel="stylesheet" href="css/aos.css">
+
+  <link rel="stylesheet" href="css/style.css">
+
 </head>
+<body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
 
-<body>
 
-  <img src="images/element_parallax1.png" class="vx" alt="" data-enllax-ratio="0.3" data-enllax-type="foreground" />
-  <img src="images/element_parallax2.png" class="vx2" alt="" data-enllax-ratio="-1" data-enllax-type="foreground" />
-  <img src="images/element_animation.png" class="vx" alt="" data-enllax-ratio="0.8" data-enllax-type="foreground" />
-
-  <div class="page-loading">
-    <img src="images/loader.gif" alt="" />
-    <span>Skip Loader</span>
+  <div id="overlayer"></div>
+  <div class="loader">
+    <div class="spinner-border text-primary" role="status">
+      <span class="sr-only">Loading...</span>
+    </div>
   </div>
 
-  <section id="start">
-    <div class="block start_bg double_gap_top double_gap_bottom">
-      <div class="container fluid">
-        <div class="row">
-          <div class="col-xl-12">
-            <div class="start_sec">
-              <div class="row justify-content-center align-items-center">
-                <div class="col-xl-5 text-center order-last">
-                  <div class="user_img">
-                    <div class="element"><img src="images/element_square.png" alt="" /></div>
-                    <div class="element_circle_yellow"><img src="images/element_yellow_circle.png" alt="" /></div>
-                    <div class="element_circle_pink"><img src="images/element_pink_circle.png" alt="" /></div>
-                    <div class="element_circle_small_pink"><img src="images/element_pink_circle_small.png" alt="" />
-                    </div>
-                    <div class="element_square"><img src="images/element_square_yes.png" alt="" /></div>
-                    <div class="element_circle_purple"><img src="images/element_purple_circle.png" alt="" /></div>
-                    <div class="element_line"><img src="images/line.png" alt="" /></div>
-                    <div class="element_circle_gray"><img src="images/element_gray_circle.png" alt="" /></div>
-                    <img src="images/resource/me.png" alt="" />
-                  </div>
-                </div>
-                <div class="col-xl-4 order-first">
-                  <div class="start_intro">
-                    <span class="RedTextColor">Hi, I' Am</span>
 
-                    <div class="glitch" data-text="Mario er">Mario er</div>
-                    <h4><i class="fa fa-connectdevelop"></i> / Developer</h4>
-                    <p> 我18岁来自安徽合肥的后端开发人员 <br> 目前从事salesforce CRM的开发!</p>
-                    <div class="start_btn">
-                      <a href="#" title="" class="theme_btn RedBgShadow mr-4"><i class="fa fa-long-arrow-down"></i>
-                        下载简历</a>
-                      <a href="#" title="" class="theme_btn  blank"><i class="fa PurpleTextColor  fa-lastfm"></i>
-                        雇佣我</a>
-                    </div>
-                  </div>
-                </div>
+  <div class="site-wrap">
 
-              </div>
-            </div>
-          </div>
+    <div class="site-mobile-menu site-navbar-target">
+      <div class="site-mobile-menu-header">
+        <div class="site-mobile-menu-close mt-3">
+          <span class="icon-close2 js-menu-toggle"></span>
         </div>
       </div>
+      <div class="site-mobile-menu-body"></div>
     </div>
-  </section>
 
-  <header class="main-nav">
-    <div class="container">
-      <div class="wrapper-menu" id="open-full-screen">
-        <div class="line-menu half start"></div>
-        <div class="line-menu"></div>
-        <div class="line-menu half end"></div>
-      </div>
-      <nav>
-        <ul>
-          <li>
-            <a href="#start" class="RedTextColor" title=""><span>开始</span></a>
-          </li>
-          <li>
-            <a href="#experience" class="SkyBlueTextColor" title=""><span>经验</span></a>
-          </li>
-          <li>
-            <a href="#skills" class="PurpleTextColor" title=""><span>技能</span></a>
-          </li>
-          <li>
-            <a href="#education" class="PinkTextColor" title=""><span>教育</span></a>
-          </li>
-          <li>
-            <a href="#projects" class="YellowTextColor" title=""><span>项目</span></a>
-          </li>
-          <li>
-            <a href="#contact_us" class="GrayTextColor" title=""><span>联系</span></a>
-          </li>
-        </ul>
-      </nav>
-    </div>
-  </header>
+    
+    <header class="site-navbar js-sticky-header site-navbar-target" role="banner">
 
-  <section>
-    <div class="block">
       <div class="container">
-        <div class="row justify-content-center">
-          <div class="col-xl-10">
-            <div class="about_me_sec">
-              <div class="element_about_left"><img src="images/element_about_left.png" alt="" /></div>
-              <div class="element_about_right"><img src="images/element_about_right.png" alt="" /></div>
-              <div class="heading">
-                <span class="RedTextColor">在这里，你会发现我的简历</span>
-                <h1>关于 我</h1>
-              </div>
-              <p>你好! 我是后端开发人员 经验目前为1年. 为北京雨花石云计算科技股份有限公司（
-                http://www.celnet.com.cn）上海德才信息科技有限公司（http://www.dcit-sh.com/）.工作过或正在服务工作</p>
-              <p>我的Github https://github.com/Q-Tai-mu 的作者。我有21多个开源的项目。您可以在GitHub上查看我的项目。</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
+        <div class="row align-items-center">
 
-  <section id="experience">
-    <div class="block remove_top">
-      <div class="container fluid">
-        <div class="row justify-content-center">
-          <div class="col-xl-9">
-            <div class="heading center">
-              <span class="PurpleTextColor">一些很酷的体验</span>
-              <h1>1年的 <i>经验</i></h1>
-            </div>
-            <div class="exp_slider_sec">
-              <div class="element_triangle"><img src="images/element_experience.png" alt="" /></div>
-              <ul class="exp_slider">
-                <li>
-                  <div class="experience">
-                    <div class="exp_tip">
-                      <h4>salesforce开发人员</h4>
-                      <span>软件技术</span>
-                    </div>
-                    <div class="row">
-                      <div class="col-xl-12">
-                        <div class="dot RedLight"><i class="RedDark"></i></div>
-                      </div>
-                    </div>
-                    <span class="RedTextColor">2020 - 2021</span>
-                    <div class="exp_logo">
-                      <img src="images/resource/exp_logo1.png" alt="" />
-                    </div>
-                  </div>
+          <div class="col-6 col-xl-2">
+            <div class="mb-0 site-logo"><a href="index.html" class="mb-0">豚悦<span class="text-primary">.</span> </a></div>
+          </div>
+
+          <div class="col-12 col-md-10 d-none d-xl-block">
+            <nav class="site-navigation position-relative text-right" role="navigation">
+
+              <ul class="site-menu main-menu js-clone-nav mr-auto d-none d-lg-block">
+                <li><a href="#home-section" class="nav-link">首页</a></li>
+                <li class="has-children">
+                  <a href="#features-section" class="nav-link">开发人员</a>
+                  <ul class="dropdown">
+                    <li><a href="#" class="nav-link">Mario just</a></li>
+                   
+                  </ul>
                 </li>
-                <li>
-                  <div class="experience flip">
-                    <div class="exp_logo">
-                      <img src="images/resource/exp_logo2.png" alt="" />
-                    </div>
-                    <span class="SkyBlueTextColor">2020 - 至今</span>
-                    <div class="row">
-                      <div class="col-xl-12">
-                        <div class="dot SkyBlueLight"><i class="SkyBlueDark"></i></div>
-                      </div>
-                    </div>
-                    <div class="exp_tip">
-                      <h4>salesforce 软件工程师</h4>
-                      <span>北京雨花石</span>
-                    </div>
-                  </div>
-                </li>
-                <li>
-                  <div class="experience">
-                    <div class="exp_tip">
-                      <h4>salesforce 软件工程师</h4>
-                      <span>在北京</span>
-                    </div>
-                    <div class="row">
-                      <div class="col-xl-12">
-                        <div class="dot PinkLight"><i class="PinkDark"></i></div>
-                      </div>
-                    </div>
-                    <span class="PinkTextColor">2020 - 2021</span>
-                    <div class="exp_logo">
-                      <img src="images/resource/exp_logo3.png" alt="" />
-                    </div>
-                  </div>
-                </li>
+                <li><a href="#pricing-section" class="nav-link">版本</a></li>
+                <li><a href="#contact-section" class="nav-link">赞助青春</a></li>
 
               </ul>
+            </nav>
+          </div>
+
+
+          <div class="col-6 d-inline-block d-xl-none ml-md-0 py-3" style="position: relative; top: 3px;"><a href="#" class="site-menu-toggle js-menu-toggle float-right"><span class="icon-menu h3 text-black"></span></a></div>
+
+        </div>
+      </div>
+
+    </header>
+
+
+
+    <div class="site-section hero" id="home-section">
+      <div class="container text-center">
+        <div class="row justify-content-center text-center">
+          <div class="col-lg-10">
+            <div class="mb-5">
+              <h1 class="hero-heading">豚悦搜索器-<strong>简洁 简单</strong></h1>
+              <p>怀念青春 追梦十年 让我们的青春有地可寻.</p>
+              <a href="#" class="btn btn-primary">获取 “豚悦搜索器”</a>
             </div>
+            <img src="images/untree.co_dashboard_mocklayout_laptop.png" alt="image" class="img-fluid">
           </div>
         </div>
       </div>
     </div>
-  </section>
 
-  <section id="skills">
-    <div class="block remove_top">
-      <div class="element_city"><img src="images/element_city.jpg" alt="" /></div>
+    
+    
+    <div class="site-section pt-0" id="features-section">
       <div class="container">
-        <div class="row justify-content-center">
-          <div class="col-xl-10">
-            <div class="heading">
-              <span class="SkyBlueTextColor">吃饭的家伙</span>
-              <h1>技能 & <i>能力</i></h1>
-            </div>
-            <div class="skill_sec">
-              <div class="progress_sec">
-                <h3>JavaScript / jQuery</h3>
-                <div class="skill_shape">
-                  <div class="skill_bar RedBgShadow" style="width: 68%;">
-                    <span class="RedTextColor">88<i>%</i></span>
-                  </div>
-                </div>
-              </div><!-- Skills -->
-              <div class="progress_sec">
-                <h3>Html & Css</h3>
-                <div class="skill_shape">
-                  <div class="skill_bar PurpleBgShadow" style="width: 55%;">
-                    <span class="PurpleTextColor">80<i>%</i></span>
-                  </div>
-                </div>
-              </div><!-- Skills -->
-              <div class="progress_sec">
-                <h3>salesforce Dev Apex/配置</h3>
-
-                <div class="skill_shape">
-                  <div class="skill_bar SkyBlueBgShadow" style="width: 75%;">
-                    <span class="SkyBlueTextColor">65<i>%</i></span>
-                  </div>
-                </div>
-              </div><!-- Skills -->
-              <div class="progress_sec">
-                <h3>java</h3>
-                <div class="skill_shape">
-                  <div class="skill_bar GreenBgShadow" style="width: 60%;">
-                    <span class="GreenTextColor">60<i>%</i></span>
-                  </div>
-                </div>
-              </div><!-- Skills -->
-            </div>
+        <div class="row">
+          <div class="col-12 text-center mb-5">
+            <span class="subtitle-1">安全</span>
+            <h2 class="section-title-1 font-weight-bold">端对端交互</h2>
           </div>
         </div>
+        <div class="row align-items-center mb-5">
+          <div class="col-lg-6 mb-5 order-lg-2 mb-lg-0" data-aos="fade-right">
+            <img src="images/untree.co_dashboard_mocklayout.png" alt="Image" class="img-fluid img-shadow">
+          </div>
+          <div class="col-lg-5 mr-auto">
+            <div class="mb-4">
+              <h2 class="section-title-2">豚悦</h2>
+              <p>使用axios+代理 基于node服务器 electron渲染界面 完全端对端交互 不存储任何用户使用过程信息</p>
+            </div>
+
+            <div class="d-flex feature-v1">
+              <span class="wrap-icon icon-users"></span>
+              <div>
+                <h3>资源群</h3>
+                <p>所有资源均来自网络 基于广大网友分享</p>
+              </div>
+            </div>
+
+            <div class="d-flex feature-v1">
+              <span class="wrap-icon icon-layers"></span>
+              <div>
+                <h3>令牌加密锁</h3>
+                <p>启动令牌校验 搜索令牌校验 显示令牌校验 多层多维度校验安全.</p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="row align-items-center">
+          <div class="col-lg-6 mb-5 mb-lg-0" data-aos="fade-left">
+            <img src="images/untree.co_dashboard_mocklayout2.png" alt="Image" class="img-fluid img-shadow">
+          </div>
+          <div class="col-lg-5 order-lg-1 ml-auto">
+            <div class="mb-4">
+              <h2 class="section-title-2">豚悦</h2>
+              <p>用户历史搜索记录本地存储 十大热搜词汇排名</p>
+            </div>
+
+            <div class="d-flex feature-v1">
+              <span class="wrap-icon icon-cog"></span>
+              <div>
+                <h3>设置</h3>
+                <p>虎年特供版主题 青海主题 星空主题.</p>
+              </div>
+            </div>
+
+            <div class="d-flex feature-v1">
+              <span class="wrap-icon icon-bolt"></span>
+              <div>
+                <h3>速度</h3>
+                <p>搜索速度快如闪电 犹如奔跑在时间线上的闪电侠.</p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      
       </div>
     </div>
-  </section>
 
-  <section>
-    <div class="block bg_light">
+
+
+    <div class="site-section bg-light testimonial-wrap" id="testimonials-section">
       <div class="container">
-        <div class="row justify-content-center">
-          <div class="col-xl-10">
-            <div class="heading center">
-              <span class="YellowTextColor">爱好</span>
-              <h1>爱好 & <i>兴趣</i></h1>
-            </div>
-            <div class="hobbies_sec">
-              <div class="hobbies">
-                <div class="element_hobbies">
-                  <img src="images/element_hobbies1.png" alt="" />
-                </div>
-                <div class="hobbies_icon_box">
-                  <img src="images/resource/hobbies_icon1.png" alt="">
-                </div>
-                <h4> 山脉 & 深林 </h4>
-                <span>奇遇</span>
-              </div>
-              <div class="hobbies">
-                <div class="element_hobbies">
-                  <img src="images/element_hobbies2.png" alt="" />
-                </div>
-                <div class="hobbies_icon_box">
-                  <img src="images/resource/hobbies_icon2.png" alt="">
-                </div>
-                <h4> 速度 & 肾上腺素 </h4>
-                <span>滑雪板</span>
-
-              </div>
-              <div class="hobbies">
-                <div class="element_hobbies">
-                  <img src="images/element_hobbies3.png" alt="" />
-                </div>
-                <div class="hobbies_icon_box">
-                  <img src="images/resource/hobbies_icon3.png" alt="">
-                </div>
-                <h4> 自然 & 古典 </h4>
-                <span>摄影</span>
-              </div>
-            </div>
+        <div class="row">
+          <div class="col-12 text-center mb-5">
+            <span class="subtitle-1">高质量人才</span>
+            <h2 class="section-title-1 font-weight-bold">What People Says</h2>
           </div>
         </div>
       </div>
-    </div>
-  </section>
+      <div class="slide-one-item home-slider owl-carousel">
+        <div>
+          <div class="testimonial">
 
-  <section id="education">
-    <div class="block">
-      <div class="element_moutains_left"><img src="images/element_mountains.jpg" alt="" /></div>
+            <blockquote class="mb-5">
+              <p>&ldquo;谢邀，人在美国，刚下飞机。先说谢邀再吹逼，人在美国刚下机。 博士在读刚下课，勉强有空答此题。 各个都是高学历，家里存款小几亿。年薪百万算个屁，月入千万有点低。 资料引用好几千，参考文献几十篇。 后面加条分割线，换个话题接着编。某某回答很完善，我再补充一小段。 字数起码三五万，一觉醒来好多赞。多图预警发照骗，来源网络侵权删。实名反对高票答，怒刷一波存在感。今天先来占个坑，点赞过万继续更。 利益相关要声明，结尾不忘抖机灵。 统一回复评论区，最后我再说几句。 圈内人多赶紧匿，以上装逼已完毕。.&rdquo;</p>
+            </blockquote>
+
+            <figure class="mb-4 d-flex align-items-center justify-content-center">
+              <div><img src="images/person_3.jpg" alt="Image" class="w-50 img-fluid mb-3"></div>
+              <p>Mario just</p>
+            </figure>
+          </div>
+        </div>
+       
+      </div>
+    </div>
+
+    <div class="site-section" id="pricing-section">
       <div class="container">
-        <div class="row justify-content-center">
-          <div class="col-xl-10">
-            <div class="heading">
-              <span class="PinkTextColor">教育</span>
-              <h1>我的 <i>教育</i></h1>
-              <div class="heading_paragraph">
-                <div class="row">
-                  <div class="col-xl-8">
-                    <p>这可能是我生命中最伟大的事情 - 能够与你分享这一点。 </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="education_sec">
-              <div class="row align-items-center">
-                <div class="col-xl-4 col-lg-6 col-md-6 col-sm-12">
-                  <div class="education_box PinkDarkBorder">
-                    <i class="fa  fa-graduation-cap PinkTextColor"></i>
-                    <h3> 安徽财经大学</h3>
-                    <span>2019 to 2023</span>
-                  </div>
-                </div>
-
-              </div>
-
-            </div>
+        <div class="row justify-content-center text-center">
+          <div class="col-7 text-center mb-5">
+            <span class="subtitle-1">版本</span>
+            <h2 class="section-title-1 font-weight-bold">github</h2>
           </div>
         </div>
-      </div>
-    </div>
-  </section>
+        <div class="row">
+          <div class="col-lg-4 col-md-6 mb-4 mb-lg-0 pricing">
+            <div class="border p-5 text-center rounded">
+              <h3>内测版</h3>
+              <div class="price mb-3"><sup class="currency">$</sup><span class="number">0</span> <span class="per">/year</span></div>
+              <p class="text-muted mb-4">*内测群分级获取</p>
+              <ul class="list-unstyled ul-check text-left success mb-5">
+                <li>免费搜索</li>
+                <li>不带广告</li>
+                <li class="text-muted"><del>热词排行榜</del></li>
+                <li class="text-muted"><del>搜索历史记录</del></li>
+                <li class="text-muted"><del>直接Aria2下载</del></li>
+              </ul>
+              <p><a href="#" class="btn btn-lg btn-secondary rounded-0 btn-block">QQ内测群：681704197</a></p>
+            </div>
+          </div>
 
-  <section id="projects">
-    <div class="block remove_top">
-      <div class="element_moutains_right"><img src="images/element_mountains_flip.jpg" alt="" /></div>
+          <div class="col-lg-4 col-md-6 mb-4 mb-lg-0 pricing">
+            <div class="border p-5 text-center rounded">
+              <h3>公测版</h3>
+              <div class="price mb-3"><sup class="currency">$</sup><span class="number">0</span> <span class="per">/year</span></div>
+              <p class="text-muted mb-4">* 内测群分级获取</p>
+              <ul class="list-unstyled ul-check text-left success mb-5">
+                <li>免费搜索</li>
+                <li>不带广告</li>
+                <li class="text-muted"><del>热词排行榜</del></li>
+                <li class="text-muted"><del>搜索历史记录</del></li>
+                <li class="text-muted"><del>直接Aria2下载</del></li>
+              </ul>
+              <p><a href="#" class="btn btn-lg btn-primary rounded-0 btn-block">QQ内测群：681704197</a></p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mb-4 mb-lg-0 pricing">
+            <div class="border p-5 text-center rounded">
+              <h3>正式版</h3>
+              <div class="price mb-3"><sup class="currency">$</sup><span class="number">0</span> <span class="per">/year</span></div>
+              <p class="text-muted mb-4">* 内测群分级获取</p>
+              <ul class="list-unstyled ul-check text-left success mb-5">
+                <li>免费搜索</li>
+                <li>不带广告</li>
+                <li class="text-muted"><del>热词排行榜</del></li>
+                <li class="text-muted"><del>搜索历史记录</del></li>
+                <li class="text-muted"><del>直接Aria2下载</del></li>
+              </ul>
+              <p><a href="#" class="btn btn-lg btn-secondary rounded-0 btn-block">QQ内测群：681704197</a></p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>   
+
+   
+
+
+
+    <div class="site-section pb-0 bg-light" id="contact-section">
       <div class="container">
-        <div class="row justify-content-center">
-          <div class="col-xl-10">
-            <div class="heading center">
-              <h1><strong><i> 11+</i></strong>持续更新多方面项目</h1>
-            </div>
-            <section id="options">
-              <div class="option-isotop">
-                <ul id="filter" class="option-set portfolio-nav" data-option-key="filter">
-                  <li><a href="#all" data-option-value="*" class="selected"><span>全部</span></a></li>
-                  <li><a href="#creative" data-option-value=".cat1"><span>数据分析</span></a></li>
-                  <li><a href="#design" data-option-value=".cat2"><span>微服务</span></a></li>
-                  <li><a href="#artistics" data-option-value=".cat3"><span>PC应用</span></a></li>
-                </ul>
-              </div>
-            </section>
-            <div class="grids-sec">
-              <div class="row" id="masonry">
-                <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12 cat2">
-                  <div class="project_box">
-                    <div class="project_img">
-                      <img src="images/resource/project1.jpg" alt="" />
-                    </div>
-                    <div class="project_details">
-                      <h3><a href="#" title="">优博</a></h3>
-                      <span>PC, 美图</span>
-                      <div class="project_btns">
-                        <a href="https://github.com/Q-Tai-mu/u-boat" title="" class="link_btn SkyBlueMediumBgShadow"><i
-                            class="fa fa-unlink"></i></a>
-                        <div class="pop_link">
-                          <a href="https://hub.fastgit.org/Q-Tai-mu/u-boat/raw/main/src/assets/HomeMain.png" title="" class="popup_btn"><i
-                              class="fa fa-search"></i></a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-lg-4  col-md-6 col-sm-6 col-xs-12 cat2">
-                  <div class="project_box">
-                    <div class="project_img">
-                      <img src="images/resource/project2.jpg" alt="" />
-                    </div>
-                    <div class="project_details">
-                      <h3><a href="#" title="">哩哩</a></h3>
-                      <span>PC, 影视</span>
-                      <div class="project_btns">
-                        <a href="https://hub.fastgit.org/Q-Tai-mu/bilibili.electron" title=""
-                          class="link_btn RedBgShadow"><i class="fa fa-unlink"></i></a>
-                        <div class="pop_link">
-                          <a href="https://raw.fastgit.org/Q-Tai-mu/bilibili.electron/main/src/assets/liliMain.png"
-                            title="" class="popup_btn"><i class="fa fa-search"></i></a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
 
-              </div>
-            </div>
+        <div class="row justify-content-center">
+          <div class="col-md-7 text-center">
+            <span class="sub-title">青春</span>
+            <h2 class="font-weight-bold text-black">给岁月以文明，而不是给文明以岁月</h2>
+            <p class="mb-5">简单的哲学不是我的，是马克思的。生着就是变化着，永生就永远变化；一百年里可以万变不离其宗，但"永远"下去，总要离其宗的；用不了永远，一万年就非离其宗不可。离了其宗，"其宗"不就死了吗？生着的是新东西了，"其宗"永生不了。如果不变，就已经死了。</p>
           </div>
         </div>
+
+        <div class="row mb-5">
+
+
+
+          <div class="col-md-4 text-center">
+            <p class="mb-4">
+              <span class="icon-room d-block h2 text-primary"></span>
+              <span>中华人民共和国 北京 朝阳区</span>
+            </p>
+          </div>
+          <div class="col-md-4 text-center">
+            <p class="mb-4">
+              <span class="icon-phone d-block h2 text-primary"></span>
+              <a href="#">+**********</a>
+            </p>
+          </div>
+          <div class="col-md-4 text-center">
+            <p class="mb-0">
+              <span class="icon-mail_outline d-block h2 text-primary"></span>
+              <a href="#">870993238@qq.com</a>
+            </p>
+          </div>
+        </div>
+    
       </div>
     </div>
-  </section>
 
 
 
-
-
-
-  <footer>
-    <div class="block no_padding">
+    <footer class="site-footer bg-light">
       <div class="container">
-        <div class="row justify-content-center">
-          <div class="col-xl-10">
-            <div class="bottom_line">
-              <div class="row">
-
-                <div class="col-xl-5">
-                  <p>Copyright <a href="https://q-tai-mu.github.io/">https://q-tai-mu.github.io/</a> 2021 ©.</p>
-                </div>
+        <div class="row">
+          <div class="col-md-9">
+            <div class="row">
+              <div class="col-md-12">
+                <h2 class="footer-heading mb-4">About Us</h2>
+                <p>《中国2185》是大刘1989年完成的，尽管语言直白，情节略混乱，但其超前的政治、军事和社会学概念也足以令人震撼，比如网络战，电子领土；又比如人口过度老龄化，消除家庭模式；更令人瞠目结舌的是，文中通过强大的计算机资源复活了共和国和执政党的创始人；华夏共和国的部分更是让人拍案叫绝。1989年，可是钢铁洪流苏联尚存的年代，计算机时代也未正式来临。
+                  作者：Tragedy
+                  链接：https://www.zhihu.com/question/20668792/answer/1647668328
+                  来源：知乎
+                  著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处.</p>
               </div>
+             
             </div>
           </div>
+         
         </div>
-      </div>
-    </div>
+        <div class="row pt-5 mt-5 text-center">
+          <div class="col-md-12">
+            <div class="border-top pt-5">
+              <p class="copyright"><small>
+                <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                版权所有 &copy;<script>document.write(new Date().getFullYear());</script> 保留所有权利|  <i class="icon-heart text-danger" aria-hidden="true"></i> by <a href="https://github.com/Q-Tai-mu" target="_blank" >Mario just</a>
+                <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></small></p>
 
-  </footer>
+              </div>
+            </div>
 
-  <script src="js/jquery.min.js"></script>
-  <script src="js/modernizr.js"></script>
-  <script src="js/script.js"></script>
-  <script src="js/slick.min.js"></script>
-  <script src="js/bootstrap.bundle.js"></script>
-  <script src="js/isotop.js"></script>
-  <script src="js/poptrox.js"></script>
-  <script src="js/jquery.jigowatt.js"></script>
-  <script src="js/enllax.js"></script>
-  <script src="js/jquery.scroller.js"></script>
-  <script src="js/jQuery_nav.js"></script>
+          </div>
+        </div>
+      </footer>
 
-</body>
+    </div> <!-- .site-wrap -->
 
-</html>
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/jquery-ui.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jquery.countdown.min.js"></script>
+    <script src="js/jquery.easing.1.3.js"></script>
+    <script src="js/aos.js"></script>
+    <script src="js/jquery.fancybox.min.js"></script>
+    <script src="js/jquery.sticky.js"></script>
+    <script src="js/isotope.pkgd.min.js"></script>
+
+
+    <script src="js/main.js"></script>
+
+
+  </body>
+  </html>
