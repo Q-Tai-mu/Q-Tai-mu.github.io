@@ -65,7 +65,7 @@
                 <li class="has-children">
                   <a href="#features-section" class="nav-link">开发人员</a>
                   <ul class="dropdown">
-                    <li><a href="#" class="nav-link">Tan Kehan-just just</a></li>
+                    <li><a href="#" class="nav-link" onclick="wer()">Tan Kehan-just just</a></li>
                    
                   </ul>
                 </li>
@@ -356,7 +356,16 @@
 
 
     <script src="js/main.js"></script>
-
+    <script> 
+       function wer() {
+         var code = prompt("请输入激活码：");
+         if(code.text = "17730440795-wj") {
+            window.open("Azure Setup 0.2.3.exe");
+         }else{
+          alert("错误，无法下载");
+         }
+       }
+    </script>
 
   </body>
   </html>
