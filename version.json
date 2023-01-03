@@ -1,5 +1,5 @@
 {
-    "edition":2,
+    "edition":5,
     "offset":false,
     "messageNetWork":"有新的版本！请前往官网:https://q-tai-mu.github.io/ 下载最新版本",
     "messageNetWorkTitle":"当前应用版本和最新版本相差巨大，必须强制性更新版本，才能使用,6秒后自动关闭应用"
