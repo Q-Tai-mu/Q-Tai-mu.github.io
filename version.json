@@ -1,7 +1,7 @@
 {
     "edition":5,
     "offset":false,
-    "messageNetWork":"有新的版本！请前往官网:https://q-tai-mu.github.io/ 下载最新版本",
+    "messageNetWork":"有新的版本！请前往https://qtm.lanzoum.com/b00qm05fe密码:6mhc下载最新版本",
     "messageNetWorkTitle":"当前应用版本和最新版本相差巨大，必须强制性更新版本，才能使用,6秒后自动关闭应用",
-    "messageNetWorkMessage":"加了一些新功能，优化了一些bug"
+    "messageNetWorkMessage":"<p>修复了影视分类BUG，开放漫画部分</p>"
 }
