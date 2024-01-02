@@ -1,6 +1,6 @@
 {
     "edition":14,
-    "offset":false,
+    "offset":true,
     "messageNetWork":"有新的版本！请前往https://qtm.lanzoum.com/b00qm05fe密码:6mhc下载最新版本",
     "messageNetWorkTitle":"当前应用版本和最新版本相差巨大，必须强制性更新版本，才能使用,6秒后自动关闭应用",
     "messageNetWorkMessage":"1.修复了漫画的分页问题，请前往更新"
