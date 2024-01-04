@@ -1,12 +1,12 @@
 {
     "offet":true,
-    "UpdateLog":"<p style='color: rgb(214, 214, 214); font-size: 10px'>重构设定按钮UI @mario (#7)</P>  <p style='color: rgb(214, 214, 214); font-size: 10px'>重构按钮刷新逻辑及动画效果 @mario (#8)</P>",
-    "MaintenanceLog":"<p style='color: rgb(214, 214, 214); font-size: 10px'> 完全移除主题模块 @mario (#6) </p>",
+    "UpdateLog":"<p style='color: rgb(214, 214, 214); font-size: 10px'>发布正式版 @mario (#10)</P>  <p style='color: rgb(214, 214, 214); font-size: 10px'>添加系统右下角小图标功能 @mario (#9)</P>",
+    "MaintenanceLog":"<p style='color: rgb(214, 214, 214); font-size: 10px'> 优化应用部分逻辑，提升应用性能 @mario (#11) </p>",
     "upgradationLog":" <p style='color: rgb(214, 214, 214); font-size: 10px'> 迁移至 .Electron13 @mario (#1) </p>",
     "VertexHeight":"210px",
-    "UpdateDate":"2024/01/03 11:19",
+    "UpdateDate":"2024/01/04 11:19",
     "windowTitle":"新版本发布（密码:97eo）",
     "Url":"https://qtm.lanzoum.com/b00s1jp9i",
-    "version":"1.2410.12",
+    "version":"1.2410.15",
     "AnnouncementSwitch":true
 }
